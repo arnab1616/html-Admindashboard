@@ -83,13 +83,11 @@ a {
   top: 52px;
 }
 #right {
-  position: absolute;
-  /* top: 0; */
-}
-#right {
-  position: absolute;
-  top: 0;
+  position:absolute;
+  top: 189px;
   left: 347px;
+  /* z-index: -1; */
+  /* background-color: antiquewhite; */
 }
 #right .right-top {
   width: 100%;
@@ -205,11 +203,14 @@ h2 {
 #right .right-bottom {
   height: 100%;
   width: 1340px;
-  position: relative;
-  top: 185px;
+  position: absolute;
+  /* top: 185px; */
   z-index: -1;
-  background: rgb(237, 241, 243);
-  padding-top: 40px;
+  /* background: rgb(144, 170, 183); */
+  /* padding-top: 40px; */
+}
+.left-side{
+  background-color: rgb(235, 240, 240);
 }
 #right .right-bottom .left-side .container1 {
   display: grid;
